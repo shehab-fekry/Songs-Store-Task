@@ -1,0 +1,61 @@
+.receipt
+{
+    border: 2px solid rgb(80, 80, 80);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5%;
+    width: 250px;
+}
+
+.header
+{
+    border-bottom: 1px solid rgb(80, 80, 80);
+    padding-bottom: 10px;
+    width: 85%;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}
+
+.list 
+{
+    padding: 10px;
+    min-height: 100px;
+}
+
+.list .listElement
+{
+    border-bottom: 1px solid rgb(212, 212, 212);
+    padding: 3px;
+    width: 60%;
+}
+
+.info
+{
+    border-bottom: 1px solid rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 85%;
+    color: rgb(80, 80, 80);
+    font-size: 14px;
+    text-align: left;
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding-top: 5px;
+}
+
+.amount, .price
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}

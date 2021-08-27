@@ -1,0 +1,32 @@
+.Buttons
+{
+    margin-top: 30px;
+}
+
+.next, .prev 
+{
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.next
+{
+    background-color: rgb(80, 80, 80);
+    box-shadow: 0px 0px 2px rgb(112, 112, 112);
+    color: white;
+}
+
+
+
+.prev:disabled
+{
+    cursor:not-allowed;
+}
+
+.next:hover
+{
+    box-shadow: 0px 0px 6px rgb(112, 112, 112);
+}
